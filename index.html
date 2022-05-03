@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/86ea4d4d5a.js" crossorigin="anonymous"></script>
+        <title>questions api</title>
+</head>
+<body>
+        <h1>QUESTIONS API</h1>
+
+        <nav class="navbar">
+                <ul class="navbar-menu1">
+                        <li><input type="number" placeholder="Number of Questions" min="1" max="30" class="q-input"></li>
+                        <li class="categories">
+                                <span>Categories</span><i class="fa fa-chevron-down"></i>
+                                <ul class="navbar-menu2">
+                                        <li>Any Category</li>
+                                        <li>General Knowledge</li>
+                                        <li>Animals</li>
+                                        <li>Sports</li>
+                                        <li>Politics</li>
+                                        <li>Celebrities</li>
+                                </ul>
+                        </li>
+                </ul>
+                <div class="filter-btn btn">Apply</div>
+        </nav>
+
+        <div class="container">
+        </div>
+
+        <h3 class="result hide"></h3>
+
+        <div class="btns">
+                <div class="submit-btn btn hide">submit</div>
+                <div class="reload-btn btn hide">play again</div>
+        </div>
+        <br>
+        <span class="warning">&nbsp;</span>
+
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
